@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Portfolio</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compaitable" content="ie=edge" />
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="./node_modules/font-awesome/css/font-awesome.min.css"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css" />
+      <!-- Bootstrap CSS -->
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+         crossorigin="anonymous"
+      />
+   </head>
+   <body>
+      <nav
+         class="navbar navbar-expand-lg navbar-light shadow fixed-top"
+         style="background-color: #eebbc3;"
+      >
+         <a
+            class="navbar-brand"
+            style="font-family: 'Fondamento', cursive; font-weight: 600; color: #121629;"
+            href="#"
+            >Merito</a
+         >
+
+         <div class="d-none d-sm-block ml-auto navigation">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="#section1">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#section2">About</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#section3">Skills</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#section4">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!--home page-->
+
+      <div class="section1 "  id="section1">
+         <div class="container">
+            <div class="row" data-aos="fade-left" data-aos-duration="3000">
+               <div class="col-md-12 heading-1 text-center">
+                  Hello I'm <span style="color: #eebbc3;">Brigit Merito.</span>
+               </div>
+               <div class="col-12 heading-1 text-center">
+                  I'm a Front End Web Developer
+               </div>
+               <div class="col-12 d-flex justify-content-center align-items-center mt-4">
+                  <a class="read-button" href="#section2">
+                     Read More<i class="fa fa-arrow-right ml-3" aria-hidden="true"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--About me-->
+      <div class="section2" id="section2">
+         <div class="about-title d-none d-sm-block">
+            <h2 class="mb-5 text-center" style="color: #232946;">About Me</h2>
+            <div class="profile-pic d-flex justify-content-center" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0">
+               <img src="./images/profile.jpg" class="img-fluid" />
+            </div>
+         </div>
+         <div class="about-page">
+            <div class="aboutme" style="color: #232946; padding: 20px; font-size: 20px;" data-aos="fade-up" data-aos-duration="2000">
+               <p>
+                  <div class="profile-pic d-flex justify-content-center d-block d-sm-none mt-5" data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="2000"
+                  >
+                     <img src="./images/profile.jpg" class="img-fluid"  style="height: 200px; width: 180px;"/>
+                  </div>
+                  Hi there
+                  <span class="mx-1"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                  My name is <strong>Brigit Merito</strong>
+               </p>
+               <p>
+                  I have a strong passion for Front-end web development.currently I'm
+                  pursuing final year B.Tech IT in Loyola-ICAM college of Engineering. And
+                  my other favorite things to do is Eat good foods,Watching movies
+                  <span><i class="fa fa-smile-o" aria-hidden="true"></i></span>
+                  And always excited to learn new tech's :) Working hard to improve my skills.
+               </p>
+            </div>
+            <div class ="work1 " style="color: #232946; padding: 20px;" >
+               <h2>  Brito's Recipes</h2>
+                <div class="workcard" style="background-color:#fffffe ;" data-aos="fade-up" data-aos-duration="2000">
+                  <div class="img-view">
+                     <img src="images/recipe.JPG" style="height: 250px; width: 100%;" class="img-fluid image"/>
+                  </div>
+                 
+                 <div class="description p-0 mx-2" style="background-color:#fffffe ; color: #232946;">
+                    A simple food recipe app created using react js and for now to make it simple I'm using dummy data sets 
+                 </div>
+                 <a href="https://merito1998brigit.github.io/home" class="btn-sm btn view-btn mb-2" style="background-color: #eebbc3; color: #232946;">View</a>
+                </div>
+            </div>
+            <div class ="work1 " style="color: #232946; padding: 20px;">
+               <h2>Gradient creator</h2>
+                <div class="workcard" style="background-color:#fffffe ;"  data-aos="fade-up" data-aos-duration="2000">
+                  <div class="img-view">
+                     <img src="images/gradient.JPG" style="height: 250px; width: 100%;" class="img-fluid image"/>
+                  </div>
+                 
+                 <div class="description p-0 mx-2" style="background-color:#fffffe ; color: #232946;">
+                     Simple gradient creator application front-end I'have used React js and back-end node-js and express 
+                     allows users to create,view,update and delete (CRUD) operations.
+                 </div>
+                 <a href="https://infinite-beyond-38193.herokuapp.com/" class="btn-sm btn view-btn mb-2" style="background-color: #eebbc3; color: #232946;">View</a>
+                </div>
+            </div>
+         </div>
+      </div>
+      <!--section3-->
+      <div class="section3 d-flex flex-column" id="section3">
+         <h2 class="text-center pt-5" style="font-weight: 600;">skills</h2>
+         <div class="row m-lg-5">
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+                <img class="img-fluid" src="/images/html5.png" alt="jq" style="width: 180px; height: 180px;">
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+               <img class="img-fluid" src="/images/css3.png" alt="jq" style="width: 180px; height: 180px;">
+           </div>
+           <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+            <img class="img-fluid" src="/images/JavaScript-logo.png" alt="jq" style="width: 180px; height: 180px;">
+            </div>
+            
+        </div>
+           <div class="row m-lg-5">
+               <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+                   <img class="img-fluid" src="/images/jquery.jpg" alt="jq" style="width: 180px; height: 200px;">
+               </div>
+               <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+                  <img class="img-fluid" src="/images/react.png" alt="jq" style="width: 180px; height: 180px;">
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+               <img class="img-fluid" src="/images/nodejslogo2.png" alt="jq" style="width: 180px; height: 180px;">
+               </div>
+               
+           </div>
+      </div>
+      <div class="section4">
+         <div class="row social-icons">    
+                   
+                <div class="col-12 col-md-6  d-flex justify-content-center align-items-center">
+                    <ul>
+                        <li><a href="https://www.facebook.com/brigitmerito/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/__merito__/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/merito1998brigit?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/brigit-merito-05a84aa4/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                      
+                      </ul>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center  align-items-center">
+                     <h4 style="color: #fffffe;">Copyrights@merito2020</h4>
+                </div>
+             
+       </div>
+      </div>
+      <!-- Optional JavaScript -->
+      <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+         integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+         integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA=="
+         crossorigin="anonymous"
+      ></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./myscript.js"></script>
+   
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+         src="https://code.jquery.com/jquery-3.5.1.js"
+         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+         crossorigin="anonymous"
+      ></script>
+      <script src="./node_modules/jqueryui/jquery-ui.min.js"></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>

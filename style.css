@@ -1,0 +1,154 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+.navigation ul li {
+   margin-right: 30px;
+}
+.navigation ul li a {
+   font-size: 20px !important;
+   color: #121629 !important;
+   font: 600 !important;
+}
+.section1 {
+   background-color: #232946;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 0px !important;
+   align-items: center;
+   overflow: hidden;
+}
+
+.heading-1 {
+   color: #fffffe;
+   font-size: 50px;
+   font-family: "Nunito", sans-serif;
+}
+.read-button {
+   border: 2px solid whitesmoke;
+   background-color: transparent;
+   color: whitesmoke;
+   border-radius: 8px;
+   padding: 10px;
+}
+.read-button:hover {
+   color: #eebbc3;
+   border: 2px solid #eebbc3;
+   text-decoration: none;
+}
+/*section 2 css*/
+.section2 {
+   background-color: #d4d8f0;
+   height: 300vh;
+   display: flex;
+   font-family: "Nunito", sans-serif;
+   overflow: hidden;
+}
+.about-title {
+   width: 50%;
+   height: 100vh;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 80px;
+   margin: 0 !important;
+}
+
+.about-page {
+   width: 50%;
+}
+.about-page > div {
+   margin-top: 0px;
+}
+.about-page div {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #d4d8f0;
+}
+.about-small {
+   margin: 0px;
+   padding: 0px;
+}
+.profile-pic {
+   margin: 0px;
+   padding: 0px;
+}
+
+.workcard {
+   background-color: #fffffe;
+   width: 50%;
+   height: 440px !important;
+   border: none;
+   color: #232946;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-radius: 2px;
+}
+.description {
+   margin: 0px !important;
+   padding: 0px !important;
+}
+.image:hover {
+   transform: scale(1.07);
+   transition: ease-in-out;
+}
+.img-view {
+   overflow: hidden !important;
+}
+.view-btn:hover {
+   font-weight: 700;
+   border: 2px solid #232946;
+}
+.section3 {
+   height: fit-content;
+   width: 100%;
+   font-family: "Nunito", sans-serif;
+   background-color: #eebbc3;
+   overflow: hidden;
+   justify-content: space-between;
+}
+
+.section4 {
+   height: 50vh;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #232946;
+}
+
+.social-icons ul {
+   text-decoration: none;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+.social-icons ul li a {
+   color: #fffffe !important;
+   font-size: x-large;
+   margin-right: 20px;
+}
+/*Small devices (landscape phones, 576px and up)*/
+
+@media only screen and (max-width: 600px) {
+   .about-page {
+      width: 100%;
+   }
+
+   .workcard {
+      width: 100%;
+      height: 300px;
+   }
+}
